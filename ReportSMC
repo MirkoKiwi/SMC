@@ -1,0 +1,2 @@
+Inizialmente la funzione decode_NEC() aspetta che arrivi un segnale alto dal ricevitore IR (invertito), ergo aspetta che arrivi l'impulso alto di 4.5 ms del protocollo NEC per poi abilitare il timer ed acquisire i valori. 
+Viene poi misurato il range 
